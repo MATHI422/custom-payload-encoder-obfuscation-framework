@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Custom Payload Encoder & Obfuscation Framework</title>
+  <style>
+    body{font-family:Arial,sans-serif;background:#0f172a;color:#e2e8f0;margin:0;padding:40px}
+    .wrap{max-width:900px;margin:auto}.card{background:#111827;padding:24px;border-radius:16px;margin-bottom:20px}
+    h1,h2{color:#60a5fa} code,pre{background:#020617;color:#cbd5e1;padding:12px;border-radius:10px;display:block;overflow:auto}
+    .ok{color:#86efac}.no{color:#fca5a5} a{color:#93c5fd}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Custom Payload Encoder & Obfuscation Framework</h1>
+    <p>A controlled cybersecurity laboratory project demonstrating how reversible text transformations affect a simple static signature matcher.</p>
+  </div>
+  <div class="card">
+    <h2>Techniques Implemented</h2>
+    <p>Base64, ROT13, XOR, string reversal, separator insertion, escape-sequence representation, and character splitting.</p>
+  </div>
+  <div class="card">
+    <h2>Test Payload</h2>
+    <pre>DEMO_SIGNATURE_TEST</pre>
+  </div>
+  <div class="card">
+    <h2>Detection Results</h2>
+    <p><span class="ok">Original: Detected</span></p>
+    <p><span class="no">Base64: Not detected</span></p>
+    <p><span class="no">ROT13: Not detected</span></p>
+    <p><span class="no">XOR: Not detected</span></p>
+    <p><span class="no">Reversed / Separated / Escaped / Split: Not detected</span></p>
+  </div>
+  <div class="card">
+    <h2>Important Note</h2>
+    <p>This demo uses harmless laboratory strings and a locally implemented detector. It does not interact with real malware or production security products.</p>
+    <p><a href="./PROJECT_REPORT.md">View Detailed Project Report</a></p>
+  </div>
+</div>
+</body>
+</html>
