@@ -1,0 +1,9 @@
+Technique,Output,Detected
+Original,DEMO_SIGNATURE_TEST,True
+Base64,REVNT19TSUdOQVRVUkVfVEVTVA==,False
+ROT13,QRZB_FVTANGHER_GRFG,False
+XOR,43424a4858544e404946535255425853425453,False
+Reversed,TSET_ERUTANGIS_OMED,False
+Separated,D#E#M#O#_#S#I#G#N#A#T#U#R#E#_#T#E#S#T,False
+Escaped,\x44\x45\x4d\x4f\x5f\x53\x49\x47\x4e\x41\x54\x55\x52\x45\x5f\x54\x45\x53\x54,False
+Split,D + E + M + O + _ + S + I + G + N + A + T + U + R + E + _ + T + E + S + T,False
